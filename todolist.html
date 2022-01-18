@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <title>To-do List</title>
+
+    <script src="./script/app.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="banner" id="banner">
+                <h1>To-do List</h1>
+                <form class="search" id="search">
+                    <input type="text" placeholder="Search Tasks...">
+                </form>
+            </div>
+        </header>
+
+        <div class="list" id="list">
+            <h2>Tasks to be completed</h2>
+            <ul>
+                <li>
+                    <span class="task">Buy Groceries</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="task">Pay Bills</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="task">Buy Glasses</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="task">Bath puppies</span>
+                    <span class="delete">Delete</span>
+                </li>
+            </ul>
+        </div>
+        <form class="add" id="add">
+
+            <input type="checkbox" id="hide">
+            <label for="hide">Hide all tasks</label>
+
+            <input type="text" placeholder="Add a task..." id="addtask">
+            <button>Add</button>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

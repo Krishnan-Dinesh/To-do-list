@@ -1,0 +1,126 @@
+.wrapper{
+    width:90%;
+    max-width: 900px;
+    margin:20px auto;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgb(0 0 0 / 20%);
+    padding-bottom: 40px;
+
+}
+
+.banner{
+    background-color: rgb(238, 238, 238);
+    padding: 10px 0px;
+    
+}
+
+.banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #444;
+
+}
+
+.list{
+    width: 90%;
+    margin: 30px;
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+li:hover{
+    border-left: 5px solid  #9361bf;
+
+}
+
+.delete{
+    float: right;
+    background-color: #9361bf;
+    border-radius: 4px;
+    color: white;
+    padding: 9px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.delete:hover{
+    background-color:  rgb(125, 105, 160);
+}
+
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-weight: normal;
+    text-align: center;
+    margin: 10px;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.add{
+    width: 400px;
+    margin:10px auto 40px auto ;
+}
+
+#addtask{
+    max-width: 250px;
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    float: left;
+    font-size: 15px;
+
+}
+
+button{
+   background-color:#9361bf ;
+   color: white;
+   border-radius: 0 4px 4px 0;
+   padding: 8px 10px 8px 10px;
+   border: 1px solid #ddd;
+   font-size: 15px;
+   width: 100px;
+   cursor: pointer;
+   float: left;
+   
+}
+
+button:hover{
+    background-color:  rgb(125, 105, 160);
+
+}
+
+.add #hide{
+    width: 30px;
+    cursor: pointer;
+}
+
+.add label{
+    line-height: 52px;
+    cursor: pointer;
+}
+
